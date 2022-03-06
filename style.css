@@ -1,0 +1,104 @@
+-/* Colors and fonts */
+body {
+  background-color: white;
+}
+h1,h2 {
+  font-family: 'Lora', serif;
+}
+h1 {
+  color: #1572A1;
+  font-size: 28px;
+  font-weight: 400px;
+}
+h2 {
+  font-weight:500px;
+  font-size: 24px;
+  color: #0E3EDA;
+  opacity: 0.8;
+}
+a {
+  text-decoration: none;
+  color: #9AD0EC;
+  font-weight: bolder;
+  font-family: 'Assistant';
+}
+p {
+  font-family: 'Assistant';
+  font-size: 17px;
+  font-weight: 500px;
+  color: rgb(50, 50, 50);
+}
+
+/* Custom design with class */
+.container {
+  width: 700px;
+  margin: 40px auto;
+}
+
+@media (max-width: 960px) {
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  .container {
+    width: 350px;
+  }
+}
+
+.card-white {
+background-color: white;
+padding: 45px;
+box-shadow: 0px 10px 30px rgba(0,0,0,0.2);
+border-radius: 4px;
+margin: 30px 0px;
+text-align: center;
+border: 1px solid whitesmoke;
+}
+.img-circle {
+  width: 150px;
+  border-radius: 50%;
+}
+.btn-blue {
+  background-color: #9AD0EC;
+  padding: 10px 17px;
+  border-radius: 5px;
+  color: white;
+  opacity: 0.8;
+  font-size: 18px;
+}
+.btn-blue:hover {
+background-color: #0E3EDA;
+text-decoration: underline;
+transition: background-color 0.3s ease;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+
+.list-inline li {
+  display: inline;
+  padding:  10px;
+}
+
+.list-inline i {
+  font-size: 50px;
+  color: #9AD0EC;
+}
+
+.list-inline i:hover {
+  color: #0E3EDA;
+  opacity: 0.8;
+  transition: background-color 0.3s ease;
+}
+
+#introduction p{
+margin-bottom: 35px;
+}
